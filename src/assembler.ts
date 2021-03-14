@@ -5,5 +5,4 @@ import { AppController } from './app.controller';
 const appService = new AppService();
 const appController = new AppController(appService); // bisogna sempre assegnare una variabile all'interno.
 
-const hello = appController.getHello();
-console.log(hello);
+
